@@ -11,9 +11,108 @@ start
 </head>
 <body>
 
-    <h1>
-hei
-    </h1>
+    <h1>Black friday sale!</h1>
+    <!-- source: https://www.w3schools.com/howto/howto_js_countdown.asp -->
+    <p id="demo" class="countdown"></p>
+    <script>
+        
+        var countDownDate = new Date("Nov 27, 2020 00:00:00").getTime();
+        
+        var x = setInterval(function() {
+        
+          var now = new Date().getTime();
+            
+          var distance = countDownDate - now;
+            
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+          document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+            
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "Black Friday is finaly here!";
+          }
+        }, 1000);
+        </script>
+        <!-- end source -->
 
+        <div class="row">
+<ul class="menu">
+    <div class="col-default-33"><li><a class="link" href="#top">Home</a></li></div>
+    <div class="col-default-33"><li><a class="link" href="#H3">General idea</a></li></div>
+    <div class="col-default-33"><li><a class="link" href="#H4">How it works</a></li></div>
+</ul>
+</div>
+
+<p>filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+</p>
+<p>filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+</p>
+<p>filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+</p>
+<p>filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+</p>
+<p>filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+</p>
+<p>filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+</p>
+<p>filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+</p>
+<p>filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+</p>
+<p>filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+</p>
+<p>filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+</p>
+<p>filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+    filler filler filler filler filler filler filler filler filler filler
+</p>
 </body>
 </html>

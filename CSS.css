@@ -1,0 +1,60 @@
+body {
+    background-color: yellow;
+    
+}
+h1{
+    text-align: center;
+    font-size: 5em;
+}
+@media only screen and (max-width: 1000px){
+    h1{
+        font-size: 4em;
+    }
+}
+
+.countdown {
+    background-color: gold;
+    text-align: center;
+    padding: 4vw;
+    font-size: 4em;
+    margin-top: -0.3vw;
+}
+@media only screen and (max-width: 1000px){
+    .countdown{
+    font-size: 3em;
+    }
+}
+
+
+  /* navbar */
+
+.anchor {
+    padding-top: 90px;
+    margin-top: -90px;
+}
+
+
+  ul.menu {
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: dimgray;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: -10px;
+
+  }
+
+
+  li a {
+
+    font-size: 1.2em;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 1.3vw;
+    color: seashell;
+
+  }
