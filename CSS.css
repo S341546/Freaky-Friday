@@ -1,6 +1,5 @@
 body {
-    background-color: yellow;
-    
+    background-color: linen;
 }
 h1{
     text-align: center;
@@ -11,9 +10,26 @@ h1{
         font-size: 4em;
     }
 }
+h2, h3 {
+    font-size: 3em;
+    text-decoration: underline;
+    padding-left: 1vw;
+    margin-left: -10px;
+    background-color: dimgray;
+    color: white;
+    padding: 2vw;
 
+}
+h2{
+    margin-bottom: -2vw;
+    margin-top: -0.5vw;
+}
+p{
+    font-size: 1.5em;
+    
+}
 .countdown {
-    background-color: gold;
+    background-color:gold;
     text-align: center;
     padding: 4vw;
     font-size: 4em;
@@ -24,19 +40,53 @@ h1{
     font-size: 3em;
     }
 }
+.høyre{
+    margin-left: 3vw;
+    display: table;
+    float: left;
+}
+.venstre{
+    margin-right: 3vw;
+    display: table;
+    float: right;
+}
+.center{
+    text-align: center;
+}
 
+.underoverskrift{
+font-size: 2em;
+font-weight: bold;
+background-color: dimgray;
+color: seashell;
+width: 100%;
+margin-left: -10px;
+padding-left: 2vw;
+
+}
 
   /* navbar */
 
 .anchor {
-    padding-top: 90px;
-    margin-top: -90px;
+    padding-top: 0.5vw;
+    margin-top: -1vw;
 }
+.anchor-h2{
+   padding-top: 3vw; 
+   margin-top: -3vw;
+}
+@media only screen and (max-width: 1000px){
+    .anchor{
+      padding-top: 70px;
+      margin-top: -70px;
+    }
+  }
 
-
-  ul.menu {
+ul.menu {
     list-style-type: none;
-    position: fixed;
+    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
     top: 0;
     width: 100%;
     background-color: dimgray;
@@ -47,8 +97,7 @@ h1{
 
   }
 
-
-  li a {
+li a {
 
     font-size: 1.2em;
     display: block;
