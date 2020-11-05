@@ -35,6 +35,13 @@ p{
 }
 }
 
+footer{
+background-color: dimgray;
+padding: 5px;
+color: seashell;
+font-family: serif;
+font-style: italic;
+}
 .countdown {
     background-color:gold;
     text-align: center;
