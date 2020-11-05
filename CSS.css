@@ -7,7 +7,7 @@ h1{
 }
 @media only screen and (max-width: 1000px){
     h1{
-        font-size: 4em;
+        font-size: 3.5em;
     }
 }
 h2, h3 {
@@ -18,6 +18,8 @@ h2, h3 {
     background-color: dimgray;
     color: white;
     padding: 2vw;
+    width: auto;
+
 
 }
 h2{
@@ -25,9 +27,14 @@ h2{
     margin-top: -0.5vw;
 }
 p{
-    font-size: 1.5em;
-    
+    font-size: 1.5em;   
 }
+@media only screen and (max-width: 1000px){
+p{
+    font-size: 1.2em;
+}
+}
+
 .countdown {
     background-color:gold;
     text-align: center;
@@ -37,7 +44,7 @@ p{
 }
 @media only screen and (max-width: 1000px){
     .countdown{
-    font-size: 3em;
+    font-size: 2.5em;
     }
 }
 .høyre{
@@ -59,17 +66,29 @@ font-size: 2em;
 font-weight: bold;
 background-color: dimgray;
 color: seashell;
-width: 100%;
+width: auto;
 margin-left: -10px;
-padding-left: 2vw;
-
+padding-left: 2vw;    
 }
+@media only screen and (max-width: 1000px){
+.underoverskrift{
+    margin-top: -5px;
+}
+}
+@media only screen and (max-width: 1600px){
+    .underoverskrift{
+        margin-top: -3px;
+    }
+    }
+
+
 
   /* navbar */
 
 .anchor {
     padding-top: 0.5vw;
-    margin-top: -1vw;
+    margin-top: -2vw;
+
 }
 .anchor-h2{
    padding-top: 3vw; 
@@ -77,8 +96,12 @@ padding-left: 2vw;
 }
 @media only screen and (max-width: 1000px){
     .anchor{
-      padding-top: 70px;
-      margin-top: -70px;
+padding-top: 0.03px;
+margin-top: -0.03px;
+    }
+    .anchor-h2{
+        padding-top: 14vw; 
+        margin-top: -14vw; 
     }
   }
 
@@ -88,12 +111,13 @@ ul.menu {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    width: 100%;
+    width: auto;
     background-color: dimgray;
     margin: 0;
     padding: 0;
     overflow: hidden;
     margin-left: -10px;
+
 
   }
 
